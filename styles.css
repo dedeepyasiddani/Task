@@ -671,7 +671,7 @@ and (max-device-width : 480px) {
     /* footer section */
     footer{
         margin: -156px -6px;
-        height: 854px
+        height: 876px
     }
     .footer-links {
         flex-direction: column;
