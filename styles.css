@@ -475,9 +475,10 @@ footer p {
 .contact {
     padding: 30px 15px;
 }
-
-@media screen and (min-width:420px) and (max-width:720px) {
-    .task {
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .task  {
         overflow-x: hidden;
     }
 
@@ -490,7 +491,7 @@ footer p {
     }
 
     .nav-bar {
-        transform: translate(11px, 26px);
+        transform: translate(85px, 26px);
         text-align: center;
 
     }
@@ -510,14 +511,14 @@ footer p {
     #gg {
         font-size: 6vw;
         text-align: center;
-        transform: translate(-286px, 79px);
+        transform: translate(-234px, 79px);
     }
 
     .text>p {
 
         font-size: 4vw;
         font-weight: 400;
-        margin: 6vw -60vw;
+        margin: 6vw -68vw;
         text-align: justify;
         width: 75vw;
     }
@@ -525,14 +526,14 @@ footer p {
     .second img {
         height: 60vw;
         width: 90vw;
-        transform: translate(-380px, 30px);
+        transform: translate(-368px, 30px);
     }
 
     /* Top blog section */
 
     .content1 {
         flex-direction: column;
-        background-color: #fff;
+        background-color:transparent;
     }
 
     small {
@@ -555,11 +556,13 @@ footer p {
 
     .content1 p {
         text-align: center;
-        transform: translate(-124px, -287px);
+        transform: translate(-134px, -289px);
+        width: 289px;
+        font-size: 4vw;
 
     }
 
-    .read {
+     .read {
         border-radius: 4vw;
         font-size: 3.5vw;
         padding: 1vw 2.8vw;
@@ -578,15 +581,15 @@ footer p {
     .blog-cards {
         flex-direction: column;
         gap: 97px;
-        margin: -91px 137px;
+        margin: -86px 98px;
         padding: 5px;
         height: fit-content;
 
     }
 
     .card {
-        width: 60vw;
-        height: 106vw;
+        width: 68vw;
+        height: 154vw;
         margin: 15px -58px;
     }
 
@@ -595,7 +598,7 @@ footer p {
     }
 
     .contribute {
-        transform: translate(-414px, -36px);
+        transform: translate(-480px, -36px);
     }
 
     .contact-container {
@@ -605,6 +608,10 @@ footer p {
 
     .input-group {
         flex-direction: column;
+        width: 248px;
+    }
+    textarea{
+        width: 248px;
     }
 
     .contact-left {
@@ -613,16 +620,17 @@ footer p {
 
     .contact-left p {
         font-size: 4vw;
-        width: 349px;
-        transform: translate(78px, -39px);
+        width: 300px;
+        transform: translate(60px, -102px);
     }
 
     .contact-left h2 {
         font-size: 6vw;
+        transform: translate(-114px, -53px);
     }
 
     .contact-left ul {
-        transform: translate(102px, -57px);
+        transform: translate(68px, -163px);
     }
 
     .contact-left ul li {
@@ -632,7 +640,7 @@ footer p {
 
     .contact-right {
         width: 200px;
-        transform: translate(19px, 112px);
+        transform: translate(4px, -23px);
     }
 
     .bb {
@@ -641,17 +649,30 @@ footer p {
     }
 
     /* photos section */
+    .partners-pictures{
+        overflow-x: hidden;
+        flex-direction: column;
+        background: transparent;
+        transform: translate(24px, -179px);
+        gap: 19px;
+        justify-content: center;
+        align-items: center;
+    }
 
-    .partners {
+    /* partners. {
         flex-direction: column;
         background: transparent;
         transform: translate(0px, 166px);
         gap: 19px;
         justify-content: center;
         align-items: center;
-    }
+    } */
 
     /* footer section */
+    footer{
+        margin: -156px -6px;
+        height: 854px
+    }
     .footer-links {
         flex-direction: column;
         justify-content: center;
@@ -670,6 +691,6 @@ footer p {
     }
 
     .copy {
-        transform: translateX(10px, 215px);
+        margin: -279px 20px;
     }
 }
