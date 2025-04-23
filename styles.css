@@ -626,7 +626,7 @@ and (max-device-width : 480px) {
 
     .contact-left h2 {
         font-size: 6vw;
-        transform: translate(-114px, -53px);
+        transform: translate(-38px, -53px);
     }
 
     .contact-left ul {
@@ -673,7 +673,7 @@ and (max-device-width : 480px) {
 /*         margin: -156px -6px;
         height: 876px */
         margin: 18px -6px;
-        height: 1046px;
+        height: 1128px;
     }
     .footer-links {
         flex-direction: column;
@@ -684,7 +684,7 @@ and (max-device-width : 480px) {
     }
 
     .footer-links ul {
-        margin: 10px 0px
+        margin: 52px 0px
     }
 
     .footer-links img {
