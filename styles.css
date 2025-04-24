@@ -652,7 +652,7 @@ and (max-device-width : 480px) {
     }
 
     /* photos section */
-    .partners-pictures{
+    .partners{
         overflow-x: hidden;
         flex-direction: column;
         background: transparent;
